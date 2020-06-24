@@ -1,0 +1,19 @@
+# 18/06/2020
+- 13:42:46 Mensagem 1
+- 13:42:59 Mensagem 2
+- 13:59:14 Mensagem 3
+- 13:59:20 Mensagem 4
+# 19/06/2020
+- 14:00:31 Mensagem 5
+- 14:02:06 Mensagem 6
+- 14:02:16 Mensagem 7
+- 16:46:31 Mensagem 8
+- 16:46:44 Mensagem 9
+- 16:56:49 Mensagem 11
+- 16:56:57 Mensagem 12
+- 17:04:46 Mensagem final
+# 22/06/2020
+- 18:23:38 Próximo dia
+# 23/06/2020
+- 18:54:07 Mensagem do dia 23/02
+- 18:54:23 Segunda mensagem do dia 23/02
