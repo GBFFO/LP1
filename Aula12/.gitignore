@@ -1,0 +1,4 @@
+*.o
+**/*.o
+diary
+saida.txt

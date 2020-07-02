@@ -35,3 +35,6 @@
 # 02/07/2020
 - 17:45:21 MensagemNova
 - 17:45:30 Nova mensagem
+- 18:32:27 Mensagem às 18:32 do dia 02/julho de 2020
+- 20:28:31 AdicionarOutra
+- 20:32:20 Adicionar última

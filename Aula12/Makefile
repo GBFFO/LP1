@@ -1,24 +1,28 @@
 GCC = g++
-GCC_FLAGS = -I include -std=c++11
+GCC_FLAGS = -I include -std=c++11 -g
 PROGRAMA = diary
 
 $(PROGRAMA): Diario.o App.o Data.o Tempo.o ObterDataTempo.o main.o
 	$(GCC) $(GCC_FLAGS) -o $(PROGRAMA) Diario.o App.o Data.o Tempo.o ObterDataTempo.o main.o
 
-main.o: main.cpp
-	$(GCC) $(GCC_FLAGS) -c main.cpp
+main.o: src/main.cpp
+	$(GCC) $(GCC_FLAGS) -c src/main.cpp
 
-Diario.o: Diario.cpp
-	$(GCC) $(GCC_FLAGS) -c Diario.cpp
+Diario.o: src/Diario.cpp
+	$(GCC) $(GCC_FLAGS) -c src/Diario.cpp
 
-App.o: App.cpp
-	$(GCC) $(GCC_FLAGS) -c App.cpp	
+App.o: src/App.cpp
+	$(GCC) $(GCC_FLAGS) -c src/App.cpp	
 
-Data.o: Data.cpp
-	$(GCC) $(GCC_FLAGS) -c Data.cpp	
+Data.o: src/Data.cpp
+	$(GCC) $(GCC_FLAGS) -c src/Data.cpp	
 
-Tempo.o: Tempo.cpp
-	$(GCC) $(GCC_FLAGS) -c Tempo.cpp	
+Tempo.o: src/Tempo.cpp
+	$(GCC) $(GCC_FLAGS) -c src/Tempo.cpp	
 
-ObterDataTempo.o: ObterDataTempo.cpp
-	$(GCC) $(GCC_FLAGS) -c ObterDataTempo.cpp
+ObterDataTempo.o: src/ObterDataTempo.cpp
+	$(GCC) $(GCC_FLAGS) -c src/ObterDataTempo.cpp
+
+clean:
+	rm -f *.o 
+	rm $(PROGRAMA)
